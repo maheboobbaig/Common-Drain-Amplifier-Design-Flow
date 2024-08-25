@@ -57,21 +57,39 @@ Symbol Creation
 **3. Testbench Setup**
 The Testbench Setup is crucial for simulating and verifying the performance of your Common Drain (Source Follower) Amplifier. It allows you to apply test signals and observe how the amplifier responds, ensuring it operates as expected.
 
-Testbench Components and Configuration
-Pulse Source (VPULSE):
-
-Purpose: Provides a time-varying input signal to test the amplifier’s dynamic response.
-Configuration: Set up the pulse source to deliver a square wave or pulse signal that represents the input signal.
-DC Voltage Source (VDC):
-
-Purpose: Supplies a steady DC voltage to VDD and biasing needs.
-Configuration: Connect the DC voltage source to the drain (VDD) of the NMOS transistor and any other necessary nodes (e.g., gate biasing).
-Connections:
-
-Input Signal: Connect the output of the pulse source (VPULSE) to the gate of the NMOS transistor.
-Power Supply: Connect the VDC to the drain (VDD) of the NMOS transistor and any other required biasing nodes.
-Output Monitoring: Connect a probe or measurement tool to the source of the NMOS transistor to observe the output response.
+Setting up the testbench is a critical step in verifying the performance of the amplifier. The testbench configuration includes pulse sources to simulate input signals, DC voltage sources for biasing, and measurement tools to observe the amplifier's output. The testbench schematic provided demonstrates how to connect these components to apply signals and measure the amplifier’s response effectively.
 
 Testbench
 
 ![Screenshot from 2024-08-20 11-09-16](https://github.com/user-attachments/assets/3a9af960-19cd-4ba3-8b21-76e6523e4a9e)
+
+**4.Simulation**
+
+Simulation is a crucial phase in validating the performance of the Common Drain (Source Follower) Amplifier. Using Cadence Virtuoso, we perform a series of simulations to ensure that the amplifier operates according to the design specifications and performs reliably under various conditions.
+
+1. Transient Analysis: The initial step involves transient analysis, which examines how the amplifier responds to time-varying input signals. This analysis is essential for verifying that the amplifier acts as a buffer, meaning that it provides an output that closely follows the input signal. For example, if a logical 1 (high voltage) is applied to the input, the output should also be 1, and similarly, if a logical 0 (low voltage) is applied, the output should be 0. This characteristic confirms that the amplifier is effectively buffering the signal without introducing significant distortion or delay.
+
+
+![Screenshot from 2024-08-20 11-23-08](https://github.com/user-attachments/assets/6ac37079-1e35-4a4b-acc4-9cf4982fe3f5)
+
+
+
+2. DC Response 
+
+The DC response of a Common Drain (Source Follower) Amplifier shows that the output voltage remains constant until the input voltage reaches. Once the input voltage exceeds this threshold, the output voltage begins to closely follow the input voltage.
+
+![Screenshot from 2024-08-20 11-22-49](https://github.com/user-attachments/assets/1653add8-7b34-44c7-b395-186769b75de9)
+
+
+
+3. AC Analysis: Following transient analysis, i conduct an AC analysis to evaluate the frequency response of the amplifier.
+
+
+![Screenshot from 2024-08-20 11-22-34](https://github.com/user-attachments/assets/f9ae92e6-c332-4cb6-b74e-104b605da1b0)
+
+
+
+Final Simulation Result
+
+![Screenshot from 2024-08-20 11-21-34](https://github.com/user-attachments/assets/987c3e80-75c1-4278-9408-542f68982bd2)
+
