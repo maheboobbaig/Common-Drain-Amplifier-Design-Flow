@@ -93,3 +93,28 @@ Final Simulation Result
 
 ![Screenshot from 2024-08-20 11-21-34](https://github.com/user-attachments/assets/987c3e80-75c1-4278-9408-542f68982bd2)
 
+
+**5.Layout Creation**
+
+The layout for the Common Drain (Source Follower) Amplifier was created in Cadence Virtuoso, involving component placement, routing, and verification through Design Rule Check (DRC) and Layout Versus Schematic (LVS) to ensure accuracy and compliance with design specifications.
+
+![Screenshot from 2024-08-20 11-45-33](https://github.com/user-attachments/assets/d708b020-2539-483a-8fb4-648808bdb0bb)
+
+
+
+**6. Design Rule Check**
+
+The Design Rule Check (DRC) was performed on the Common Drain (Source Follower) Amplifier design, and the results showed zero errors, confirming that the design adheres to all layout and fabrication rules.
+
+![Screenshot from 2024-08-20 11-39-42](https://github.com/user-attachments/assets/ec318dce-0023-4986-8e46-923ebde83e3c)
+
+
+**6.Layout Vs Schematic**
+
+The Layout Versus Schematic (LVS) check was conducted for the Common Drain (Source Follower) Amplifier, and the results confirmed that there are no discrepancies between the layout and the schematic, verifying the accuracy of the design implementation.
+
+![Screenshot from 2024-08-20 11-40-56](https://github.com/user-attachments/assets/ea5fc0a0-9a7d-4f65-8eed-42b0dfe71982)
+
+
+![Screenshot from 2024-08-20 11-41-26](https://github.com/user-attachments/assets/db1acdbe-d869-4bb0-bc98-0435f0c3f6f8)
+
