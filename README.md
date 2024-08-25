@@ -1,4 +1,4 @@
-# Common-Drain-Source-Amplifier-Design-Flow
+# Common-Drain-Amplifier-Design-Flow
 This project covers the complete design process for a Common Drain Source Amplifier, a critical component in analog electronics.
 
 **1. Schematic Design**
@@ -22,6 +22,7 @@ Output: Taken from the source of the NMOS transistor.
 Power Supply: VDD is connected to the drain of the NMOS transistor. This connection provides the power needed for the transistor to operate.
 Ground: The source terminal of the NMOS transistor is typically connected to ground or a low reference voltage, ensuring that the amplifier can properly follow the input voltage.
 
+Schematic
 
 ![Screenshot from 2024-08-20 10-32-11](https://github.com/user-attachments/assets/d7800dca-b787-446b-82bf-bf89d10ae5fd)
 
@@ -48,7 +49,7 @@ Drain (D): Marked for the VDD connection.
 Bias: Often indicated as a separate pin or component in the symbol.
 This visual representation should be clear and easily recognizable, ensuring it can be seamlessly integrated into circuit diagrams.
 
-Schematic
+Symbol Creation
 
 ![Screenshot from 2024-08-20 10-31-03](https://github.com/user-attachments/assets/72c3eae8-17b2-4183-9e57-be81d969bdd8)
 
@@ -71,5 +72,6 @@ Input Signal: Connect the output of the pulse source (VPULSE) to the gate of the
 Power Supply: Connect the VDC to the drain (VDD) of the NMOS transistor and any other required biasing nodes.
 Output Monitoring: Connect a probe or measurement tool to the source of the NMOS transistor to observe the output response.
 
-Schematic
+Testbench
 
+![Screenshot from 2024-08-20 11-09-16](https://github.com/user-attachments/assets/3a9af960-19cd-4ba3-8b21-76e6523e4a9e)
