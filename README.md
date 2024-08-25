@@ -24,15 +24,10 @@ Schematic
 **2. Symbol Creation**
 
 The symbol creation for the Common Drain (Source Follower) Amplifier involves designing a graphical representation that simplifies the integration of the amplifier into larger circuit diagrams. Here’s how you can explain this process:
+The symbol creation for the common drain amplifier involves designing a graphical representation of the circuit for use in schematic diagrams. The symbol includes:
 
-The symbol should accurately reflect the NMOS transistor’s function as a voltage follower:
-
-Design: The symbol is typically a compact, simplified version of the NMOS transistor, including:
-Gate (G): Marked for the input signal.
-Source (S): Marked for the output.
-Drain (D): Marked for the VDD connection.
-Bias: Often indicated as a separate pin or component in the symbol.
-This visual representation should be clear and easily recognizable, ensuring it can be seamlessly integrated into circuit diagrams.
+Pin Configuration: Clearly labeled pins for input, output, VDD, VSS, and VBIAS.
+Visual Representation: A compact and recognizable symbol that reflects the common drain amplifier’s functionality.
 
 Symbol Creation
 
