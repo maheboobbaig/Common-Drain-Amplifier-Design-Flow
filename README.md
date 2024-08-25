@@ -23,7 +23,7 @@ Schematic
 
 **2. Symbol Creation**
 
-The symbol creation for the Common Drain (Source Follower) Amplifier involves designing a graphical representation that simplifies the integration of the amplifier into larger circuit diagrams. Here’s how you can explain this process:
+The symbol creation for the Common Drain (Source Follower) Amplifier involves designing a graphical representation that simplifies the integration of the amplifier into larger circuit diagrams.
 The symbol creation for the common drain amplifier involves designing a graphical representation of the circuit for use in schematic diagrams. The symbol includes:
 
 Pin Configuration: Clearly labeled pins for input, output, VDD, VSS, and VBIAS.
